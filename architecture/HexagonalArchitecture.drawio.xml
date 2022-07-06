@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T04:48:47.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="eXUh8bbloDKHTozajbXv" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-06T04:49:39.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1jGw5FbOdwyslsHrj-tp" version="20.0.4" type="github" pages="5">
   <diagram id="pHeQ_CqSLQUGDX6t2Q5x" name="헥사고날 아키텍처">
     <mxGraphModel dx="4691" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -385,7 +385,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="A58-kfpQOFo1oFLNPktr" name="의존성 역전">
+  <diagram id="A58-kfpQOFo1oFLNPktr" name="의존관계 역전">
     <mxGraphModel dx="2706" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -598,7 +598,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="U_Rxb4vgR6FC8RPIcPeW" name="아웃고잉">
+  <diagram id="U_Rxb4vgR6FC8RPIcPeW" name="아웃고잉 (web-boilerplate)">
     <mxGraphModel dx="2706" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -682,7 +682,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mvBOLqY6irjfcNs5KY6U" name="인커밍">
+  <diagram id="mvBOLqY6irjfcNs5KY6U" name="인커밍 (web-boilerplate)">
     <mxGraphModel dx="2255" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
