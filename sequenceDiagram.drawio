@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T07:44:59.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PBMYXegGDYE8ClwJ2jpR" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T08:42:01.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TuuXkAQyc_9xr-Q5Mlm1" version="20.0.4" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="이메일 중복 확인">
-    <mxGraphModel dx="1720" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,133 @@
         </mxCell>
         <mxCell id="Aq8OVAQ7RMTDQsxkJ5Ie-93" value="- loop가 적절한지?&lt;br&gt;- 알럿 메시지 출력을 self message로 작성하는게 적절한지?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="40" y="10" width="350" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AiZxoehDVDd2JxzxWYF-" name="PC 회원가입">
+    <mxGraphModel dx="3178" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KSHl7zqXTedPZYieGuST-33" value="create User&lt;br&gt;create()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.059;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KSHl7zqXTedPZYieGuST-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="913.5999999999998" y="770" as="sourcePoint" />
+            <mxPoint x="1234.4" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="290" width="20" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-3" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="409" y="260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-6" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="894" y="290" width="40" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KSHl7zqXTedPZYieGuST-6">
+          <mxGeometry x="15" y="160" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-7" value="RegisterController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="854" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-9" value="[입력값 검증 성공] @POST {{ peter-web }}/register&lt;br&gt;Auth\AuthController@postRegister($request)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KSHl7zqXTedPZYieGuST-10">
+          <mxGeometry x="0.0299" width="80" relative="1" as="geometry">
+            <mxPoint x="644" y="450" as="sourcePoint" />
+            <mxPoint x="884" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-11" value="RegisterUserForm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="290" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KSHl7zqXTedPZYieGuST-11">
+          <mxGeometry x="55" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KSHl7zqXTedPZYieGuST-11">
+          <mxGeometry x="60" y="100" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-17" value="$(&#39;#registersubmit&#39;).click(handler)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="KSHl7zqXTedPZYieGuST-16" parent="KSHl7zqXTedPZYieGuST-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-15" value="필드 입력 후&lt;br&gt;회원가입 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.057;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KSHl7zqXTedPZYieGuST-2" target="KSHl7zqXTedPZYieGuST-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="454" y="370" as="sourcePoint" />
+            <mxPoint x="574" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-18" value="[입력값 검증 실패] 검증 실패 메시지" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;rounded=0;endFill=1;exitX=-0.019;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KSHl7zqXTedPZYieGuST-16" target="KSHl7zqXTedPZYieGuST-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629.02" y="430.6" as="sourcePoint" />
+            <mxPoint x="434.02380952380963" y="430.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-21" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="290" width="40" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KSHl7zqXTedPZYieGuST-21">
+          <mxGeometry x="15" y="368" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-23" value="SMSController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-24" value="[mobile_phone]&lt;br&gt;회원가입 알림톡 발송 요청" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.009;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KSHl7zqXTedPZYieGuST-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="919" y="658.04" as="sourcePoint" />
+            <mxPoint x="1014" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-26" value="redierct()-&amp;gt;back() { error: &#39;회원가입에 실패했습니다.&#39; }" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909" y="569" as="sourcePoint" />
+            <mxPoint x="433.6999999999998" y="569" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-28" value="redierct()-&amp;gt;back() session::put(memberJoinComplete) -- 회원가입 완료 alert" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;rounded=0;endFill=1;" edge="1" parent="1" source="KSHl7zqXTedPZYieGuST-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="810" as="sourcePoint" />
+            <mxPoint x="434" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-29" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="619" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-30" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="899" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-31" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="290" width="40" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KSHl7zqXTedPZYieGuST-31">
+          <mxGeometry x="15" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-32" value="DB tabel: TB_USER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-25" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="698" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-36" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-42" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=56;height=30;" vertex="1" parent="1">
+          <mxGeometry x="374" y="500" width="900" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-43" value="[Exception]" style="text" vertex="1" parent="KSHl7zqXTedPZYieGuST-42">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-44" value="[else]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="KSHl7zqXTedPZYieGuST-42">
+          <mxGeometry y="113.07692307692304" width="900" height="13.999999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="KSHl7zqXTedPZYieGuST-47" value="&lt;b&gt;SD PC회원가입&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="160" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
