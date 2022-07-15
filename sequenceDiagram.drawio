@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T08:42:01.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TuuXkAQyc_9xr-Q5Mlm1" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-15T08:44:55.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qTUvINPiu9ppM-bz06N9" version="20.0.4" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="이메일 중복 확인">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,10 +128,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AiZxoehDVDd2JxzxWYF-" name="PC 회원가입">
-    <mxGraphModel dx="3178" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KSHl7zqXTedPZYieGuST-48" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="276" y="160" width="1096" height="820" as="geometry" />
+        </mxCell>
         <mxCell id="KSHl7zqXTedPZYieGuST-33" value="create User&lt;br&gt;create()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.059;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KSHl7zqXTedPZYieGuST-37">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="913.5999999999998" y="770" as="sourcePoint" />
@@ -249,7 +252,7 @@
           <mxGeometry y="113.07692307692304" width="900" height="13.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="KSHl7zqXTedPZYieGuST-47" value="&lt;b&gt;SD PC회원가입&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="374" y="160" width="100" height="30" as="geometry" />
+          <mxGeometry x="374" y="200" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
