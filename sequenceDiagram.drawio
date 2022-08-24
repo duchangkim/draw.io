@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T05:31:51.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hfEY1p6ofIqVgRVB8ddJ" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-24T07:44:05.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jhuaiSvku5j9gSY5Xkto" version="20.2.5" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="이메일 중복 확인">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -518,7 +518,7 @@
         <mxCell id="w1wvvd8fRk3zx4M5_KKm-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" parent="lh55IHDM7WSW4Z5M8b-Z-1" vertex="1">
           <mxGeometry x="915" y="720" width="10" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="w1wvvd8fRk3zx4M5_KKm-5" value="[hasInviteCode]&lt;br&gt;제로회원 코드가 하드코드인지 판단&lt;br&gt;return &lt;font color=&quot;#ff6666&quot;&gt;isHardCode&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#000000;" parent="lh55IHDM7WSW4Z5M8b-Z-1" target="w1wvvd8fRk3zx4M5_KKm-4" edge="1">
+        <mxCell id="w1wvvd8fRk3zx4M5_KKm-5" value="[hasInviteCode]&lt;br&gt;this.checkHardCode() 입력한 제로회원 코드가 정상적인 코드인지 판단&lt;br&gt;return &lt;font color=&quot;#ff6666&quot;&gt;isHardCode/&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#000000;" parent="lh55IHDM7WSW4Z5M8b-Z-1" target="w1wvvd8fRk3zx4M5_KKm-4" edge="1">
           <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
             <mxPoint x="920" y="700" as="sourcePoint" />
             <Array as="points">
