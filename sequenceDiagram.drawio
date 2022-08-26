@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:44:05.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jhuaiSvku5j9gSY5Xkto" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-26T00:59:27.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CnhZq2e9jinwW3tEqDjB" version="20.2.6" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="이메일 중복 확인">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -394,7 +394,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="PC 회원가입 ver3" id="6VcJ_HyzLC9gX62BDT3w">
-    <mxGraphModel dx="1797" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lh55IHDM7WSW4Z5M8b-Z-0" />
         <mxCell id="lh55IHDM7WSW4Z5M8b-Z-1" parent="lh55IHDM7WSW4Z5M8b-Z-0" />
@@ -455,7 +455,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lh55IHDM7WSW4Z5M8b-Z-14" value="필드 입력 후&lt;br&gt;회원가입 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.057;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lh55IHDM7WSW4Z5M8b-Z-1" source="lh55IHDM7WSW4Z5M8b-Z-4" target="lh55IHDM7WSW4Z5M8b-Z-11" edge="1">
+        <mxCell id="lh55IHDM7WSW4Z5M8b-Z-14" value="필드 입력 후&lt;br&gt;회원가입 요청" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.057;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lh55IHDM7WSW4Z5M8b-Z-1" source="lh55IHDM7WSW4Z5M8b-Z-4" target="lh55IHDM7WSW4Z5M8b-Z-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="454" y="370" as="sourcePoint" />
             <mxPoint x="574" y="370" as="targetPoint" />
@@ -497,7 +497,7 @@
         <mxCell id="lh55IHDM7WSW4Z5M8b-Z-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="lh55IHDM7WSW4Z5M8b-Z-24" vertex="1">
           <mxGeometry x="15" y="205" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lh55IHDM7WSW4Z5M8b-Z-26" value="DB tabel: TB_USER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="lh55IHDM7WSW4Z5M8b-Z-1" vertex="1">
+        <mxCell id="lh55IHDM7WSW4Z5M8b-Z-26" value="DB table: TB_USER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="lh55IHDM7WSW4Z5M8b-Z-1" vertex="1">
           <mxGeometry x="1020" y="260" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lh55IHDM7WSW4Z5M8b-Z-27" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" parent="lh55IHDM7WSW4Z5M8b-Z-1" vertex="1">
@@ -573,6 +573,9 @@
         </mxCell>
         <mxCell id="w1wvvd8fRk3zx4M5_KKm-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontStyle=0" parent="lh55IHDM7WSW4Z5M8b-Z-1" vertex="1">
           <mxGeometry x="1215" y="935" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sVS7PwS9xq66q8AxaAG7-0" value="&lt;font color=&quot;#b3b3b3&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;" vertex="1" parent="lh55IHDM7WSW4Z5M8b-Z-1">
+          <mxGeometry x="574" y="230" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
